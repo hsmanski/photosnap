@@ -1,0 +1,64 @@
+/* Navbar Styles */
+.navbar-container {
+  width: 100%;
+  height: 73px;
+  padding: 0 165px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  @media (max-width: $layout-breakpoint-large-tablet) {
+    padding: 0 24px;
+  }
+}
+
+.navbar-logo {
+  width: 170px;
+  height: 16px;
+}
+
+.navbar-link-container {
+  width: 269px;
+  display: flex;
+  justify-content: space-between;
+  @media (max-width: $layout-breakpoint-small-tablet) {
+    visibility: none;
+    opacity: 0;
+    display: none;
+  }
+}
+
+.navbar-link {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 2px;
+  color: #000000;
+  cursor: pointer;
+}
+
+.navbar-link:hover {
+  opacity: 0.3;
+}
+
+.navbar-btn {
+  @media (max-width: $layout-breakpoint-small-tablet) {
+    visibility: none;
+    opacity: 0;
+    display: none;
+  }
+}
+
+/* Hamburger Menu Styles */
+.hamburger-lines {
+  width: 20px;
+  height: 6px;
+  visibility: none;
+  opacity: 0;
+  display: none;
+  @media (max-width: $layout-breakpoint-small-tablet) {
+    visibility: visible;
+    opacity: 1;
+    display: inline-block;
+  }
+}
+/* End of Navbar Styles */

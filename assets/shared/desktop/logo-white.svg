@@ -1,0 +1,18 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170 16" width="170" height="16">
+	<title>logo-svg</title>
+	<defs>
+		<image  width="142" height="16" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAI4AAAAQAQMAAAD6X9V4AAAAAXNSR0IB2cksfwAAAAZQTFRF////AAAAVcLTfgAAAAJ0Uk5T/wDltzBKAAAAvklEQVR4nEXQsW3DQAyF4XdgcEwh6C0QRJtIziYZwyUDLXY3QVZgl/bKK4zYPMGC26/48UhgpTaaNDay9sU+gE9qEZMirjroDZiplkwsFZXaFsNBCEJQqpEApkwV65tY/R20A8zM6n1VL3dU190wZ2T6daVfFnwdhEEtqF2iWfXIn/Q9aD8pWvSbvKdYGLvWM3+XaeybwP9zxJ/MydJ+OwipbzFV+CILiqOUScqTivStSFH+qD+psW+NHs8Z9AAMB11jMFCo+AAAAABJRU5ErkJggg=="/>
+		<linearGradient id="g1" x1="0" y1="218.8" x2="180.5" y2="37.2" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#ffc593"/>
+			<stop offset=".5" stop-color="#bc7198"/>
+			<stop offset="1" stop-color="#5a77ff"/>
+		</linearGradient>
+	</defs>
+	<style>
+		.s0 { fill: url(#g1) } 
+	</style>
+	<g id="Layer">
+		<use id="Layer 1" href="#img1" x="27" y="0"/>
+		<path id="Layer" fill-rule="evenodd" class="s0" d="m0 16l9.5-16 9.5 16z"/>
+	</g>
+</svg>

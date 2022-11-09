@@ -1,0 +1,19 @@
+$hover-gradient: linear-gradient(
+  26.57deg,
+  #ffc593 0%,
+  #bc7198 43.29%,
+  #5a77ff 83.33%
+);
+
+// Media Queries
+$layout-breakpoint-large-tablet: 1052px;
+$layout-breakpoint-tablet: 768px;
+$layout-breakpoint-small-tablet: 700px;
+$layout-breakpoint-phone: 375px;
+
+/* Hidden Class */
+.hidden {
+  opacity: 0;
+  visibility: hidden;
+  display: none;
+}
